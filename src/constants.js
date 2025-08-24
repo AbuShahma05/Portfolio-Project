@@ -89,7 +89,7 @@ export const education = [
     school: "Gaya College, GAYA",
     date: "July 2023 - July 2026",
     Percentage: "81.4%",
-    desc: "I am currently pursuing my Bachelor's degree (BCA) from Gaya College, Gaya under Magadh University. Throughout my studies, I am building a solid foundation in programming, web development, database management, and core computer science concepts. My coursework includes subjects like Data Structures, Computer Networks, Operating Systems, and Software Engineering. I actively engage in learning new technologies and participating in technical activities to strengthen my practical knowledge and skills.",
+    desc: "I am a final-year BCA student at Gaya College, Gaya, specializing in full-stack web development. Over the course of my studies, I have built and deployed 9+ projects that strengthened my skills in frontend, backend, and database management. With a solid foundation in computer science subjects and hands-on project experience, I am currently preparing for technical interviews to start my journey as a software developer.",
     degree: "Bachelor of Computer Application - BCA",
   },
   {

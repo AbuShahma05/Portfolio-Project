@@ -73,7 +73,7 @@ const Contact = () => {
           <input
             type="email"
             name="user_email"
-            placeholder="Write Your Email"
+            placeholder="Enter Your Email"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
