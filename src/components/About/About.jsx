@@ -45,8 +45,8 @@ const About = () => {
             I am a full-stack developer <br /> with strong
             skills in front-end <br /> and back-end development. <br />
             I specialize in the MERN stack <br />
-            and have a deep love for frontend development, where I enjoy creating <br />
-            smooth, engaging user experiences. <br />
+            and have a deep love for <br /> frontend development, where I <br /> enjoy creating 
+            smooth, engaging <br /> user experiences. 
             Along with frontend expertise, I am also confident in building powerful backend solutions, making me capable of handling complete web applications from start to finish.
           </p>
 

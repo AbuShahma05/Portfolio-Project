@@ -2,6 +2,8 @@ Portfolio Project - Abu Shahma
 
 ---
 
+🔗 Live Project: https://portfolio-project-psi-two.vercel.app
+
 This is my personal portfolio website built using React JS, Tailwind CSS, and other modern technologies. It showcases my skills, projects, and educational background, along with a contact form to get in touch with me.
 
 ---
