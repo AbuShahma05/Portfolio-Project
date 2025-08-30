@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import pic2 from '../../assets/pic2.jpg'
+// import pic2 from '../../assets/pic2.jpg'
+import  pic3 from '../../assets/pic3.jpg'
 import { IoMdCloudDownload } from "react-icons/io";
 
 const About = () => {
@@ -80,7 +81,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={pic2}
+              src={pic3}
               alt="Abu Shahma"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
