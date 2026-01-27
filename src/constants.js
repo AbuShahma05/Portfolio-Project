@@ -27,13 +27,13 @@ import twelth from "./assets/education_logo/twelth.jpeg";
 import ten from "./assets/education_logo/ten.jpg";
 
 // Project Section Logo's
+import GrowAcademy from "./assets/work_logo/GrowAcademy.png";
 import TechRoute from "./assets/work_logo/TechRoute.png";
 import Apple from "./assets/work_logo/Apple.png";
 import Weather from "./assets/work_logo/Weather.png";
 import Bizora from "./assets/work_logo/Bizora.png";
 import Todo from "./assets/work_logo/Todo.png";
 import Twitter from "./assets/work_logo/Twitter.png";
-import Colour from "./assets/work_logo/Colour.png";
 import Number from "./assets/work_logo/Number.png";
 import Spotify from "./assets/work_logo/Spotify.png";
 
@@ -115,6 +115,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "GrowAcademy",
+    description:
+      "GrowAcademy is a full-stack EdTech platform that supports instructor-led course creation, student enrollment and learning, and administrative oversight. It features secure authentication, role-based dashboards, course filtering by level and category, progress tracking, and cloud deployment, designed to reflect real-world learning management systems.",
+    image: GrowAcademy,
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "bcrypt.js",
+      "Cloudinary",
+      "Multer",
+      "React",
+      "Tailwind CSS",
+      "React Router DOM"
+    ],
+    github: "https://github.com/AbuShahma05/GrowAcademy",
+    webapp: "https://growacademy.vercel.app",
+  },
+  {
+    id: 1,
     title: "TechRoute",
     description:
       "A comprehensive and beginner-friendly web platform crafted to guide students through their tech career journeys. TechRoute offers clear roadmaps, essential skill lists, unique project ideas, and core theory subject resources to help users confidently build their careers in the tech industry.",
@@ -130,7 +152,7 @@ export const projects = [
     webapp: "https://tech-route.vercel.app",
   },
   {
-    id: 1,
+    id: 2,
     title: "Apple",
     description:
       "A sleek and modern frontend web project inspired by the Apple website. This clone features a polished UI, smooth animations, and intuitive navigation. It includes dedicated pages for Mac, iPad, and iPhone, offering users a visually rich and seamless browsing experience.",
@@ -147,7 +169,7 @@ export const projects = [
     webapp: "https://apple-project-alpha.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Weather",
     description:
       "A simple and user-friendly weather application that allows users to search for real-time weather updates by city. The project delivers detailed weather information like temperature, humidity, and wind speed through a clean and responsive interface, ensuring a smooth and efficient user experience.",
@@ -157,7 +179,7 @@ export const projects = [
     webapp: "https://weather-project-ten-mauve.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Bizora",
     description:
       "A fully responsive and visually engaging landing page crafted to deliver a smooth and modern user experience. The project features sleek animations, interactive elements, and a polished design that adapts seamlessly across all devices, creating a professional and dynamic first impression.",
@@ -174,7 +196,7 @@ export const projects = [
     webapp: "https://bizora.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo",
     description:
       "A simple yet powerful To-Do List application built to help users manage their daily tasks efficiently. It offers features like adding, updating, marking tasks as complete or incomplete, and deleting tasks, all within a clean and user-friendly interface that ensures a smooth task management experience.",
@@ -184,7 +206,7 @@ export const projects = [
     webapp: "https://todo-project-beryl.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Twitter",
     description:
       "A lightweight and efficient backend project showcasing CRUD (Create, Read, Update, Delete) operations through custom API routes. The application features dynamic page rendering with EJS templates and a clean, minimalistic UI, offering a smooth and practical experience for backend functionality and deployment learning.",
@@ -192,16 +214,6 @@ export const projects = [
     tags: ["Node JS", "EJS", "Express JS", "UUID", "Method-Override"],
     github: "https://github.com/AbuShahma05/TwixAPI",
     webapp: "https://twix-api.vercel.app/twitter",
-  },
-  {
-    id: 6,
-    title: "Colour",
-    description:
-      "A simple and interactive web application designed to let users generate and explore different colours with just a click. Built for a smooth and visually appealing experience, this project focuses on enhancing user interaction through a clean and dynamic interface.",
-    image: Colour,
-    tags: ["React JS", "React Router DOM"],
-    github: "https://github.com/AbuShahma05/Color-Project",
-    webapp: "https://color-project-one.vercel.app",
   },
   {
     id: 7,
@@ -214,7 +226,7 @@ export const projects = [
     webapp: "https://mini-counter-project.vercel.app",
   },
   {
-    id: 7,
+    id: 8,
     title: "Spotify-clone",
     description:
       "A functional and visually engaging music player application inspired by Spotify. Designed with a clean interface and interactive features like play, pause, seekbar navigation, and seamless song switching to deliver an enjoyable user experience.",

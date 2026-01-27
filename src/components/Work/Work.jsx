@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { projects } from "../../constants"; 
+import { useState } from "react";
+import { projects } from "../../constants";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
