@@ -1,8 +1,6 @@
-import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-// import pic2 from '../../assets/pic2.jpg'
-import  pic3 from '../../assets/pic3.jpg'
+import pic3 from '../../assets/pic3.jpg'
 import { IoMdCloudDownload } from "react-icons/io";
 
 const About = () => {
@@ -31,7 +29,7 @@ const About = () => {
                 'Backend Developer',
                 'Full Stack Developer',
                 'MERN Stack Developer',
-                 'Web Developer',
+                'Web Developer',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -47,8 +45,8 @@ const About = () => {
             I am a full-stack developer <br /> with strong
             skills in front-end <br /> and back-end development. <br />
             I specialize in the MERN stack <br />
-            and have a deep love for <br /> frontend 
-            development, where I <br /> enjoy 
+            and have a deep love for <br /> frontend
+            development, where I <br /> enjoy
             creating
             smooth, engaging <br /> user experiences.
             Along with <br />frontend expertise, I am also <br />confident in building powerful <br />backend solutions, making me<br /> capable of handling complete<br /> web applications from start to finish.
@@ -56,7 +54,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1DLUk-DW5Te4QuNQaHia0Zx2GKtDYNq6d/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nCRFWlWJ1s-5btwszk-R30XV06tnmW-B/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
