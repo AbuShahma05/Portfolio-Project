@@ -117,7 +117,9 @@ export const projects = [
     id: 0,
     title: "GrowAcademy",
     description:
-      "GrowAcademy is a full-stack EdTech platform that supports instructor-led course creation, student enrollment and learning, and administrative oversight. It features secure authentication, role-based dashboards, course filtering by level and category, progress tracking, and cloud deployment, designed to reflect real-world learning management systems.",
+      `Built a scalable full-stack LMS enabling instructors to create and manage courses while allowing students to seamlessly enroll and track learning progress.
+Implemented secure authentication and role-based dashboards for instructors, students, and admins, ensuring structured access control.
+      `,
     image: GrowAcademy,
     tags: [
       "Node.js",
