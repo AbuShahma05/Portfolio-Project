@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -12,7 +12,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_flbhnz4",  // EmailJS Service ID
+        "service_q5s9o7w",  // EmailJS Service ID
         "template_ekce1rz",  // EmailJS Template ID
         form.current,
         "iUw0698tMWktJmJnu"  // EmailJS Public Key

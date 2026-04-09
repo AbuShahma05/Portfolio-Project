@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -38,7 +38,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
+      className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+          : "bg-transparent"
         }`}
     >
       <div className="text-white py-5 flex justify-between items-center">
@@ -56,7 +58,7 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${activeSection === item.id ? "text-[#8245ec]" : ""
+              className={`cursor-pointer hover:text-[#8245ec] transition-colors duration-300 ${activeSection === item.id ? "text-[#8245ec]" : ""
                 }`}
             >
               <button onClick={() => handleMenuItemClick(item.id)}>
@@ -66,23 +68,28 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Github */}
-        <div className="hidden md:flex space-x-4">
+        {/* Github and LinkedIn Icons - Desktop */}
+        <div className="hidden md:flex space-x-6">
+          {/* GitHub Icon - Dark Gray */}
           <a
             href="https://github.com/AbuShahma05"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            title="GitHub"
+            className="text-3xl text-gray-700 hover:text-white transition-all duration-300 transform hover:scale-110"
           >
-            <FaGithub size={24} />
+            <FaGithub />
           </a>
+
+          {/* LinkedIn Icon - LinkedIn Blue */}
           <a
             href="https://www.linkedin.com/in/abu-shahma"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            title="LinkedIn"
+            className="text-3xl text-blue-600 hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
           >
-            <FaLinkedin size={24} />
+            <FaLinkedin />
           </a>
         </div>
 
@@ -109,7 +116,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""
+                className={`cursor-pointer hover:text-white transition-colors duration-300 ${activeSection === item.id ? "text-[#8245ec]" : ""
                   }`}
               >
                 <button onClick={() => handleMenuItemClick(item.id)}>
@@ -117,22 +124,29 @@ const Navbar = () => {
                 </button>
               </li>
             ))}
-            <div className="flex space-x-4">
+
+            {/* GitHub and LinkedIn Icons - Mobile */}
+            <div className="flex space-x-6 pt-2">
+              {/* GitHub Icon - Dark Gray */}
               <a
                 href="https://github.com/AbuShahma05"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                title="GitHub"
+                className="text-2xl text-gray-700 hover:text-white transition-all duration-300 transform hover:scale-110"
               >
-                <FaGithub size={24} />
+                <FaGithub />
               </a>
+
+              {/* LinkedIn Icon - LinkedIn Blue */}
               <a
                 href="https://www.linkedin.com/in/abu-shahma"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                title="LinkedIn"
+                className="text-2xl text-blue-600 hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
               >
-                <FaLinkedin size={24} />
+                <FaLinkedin />
               </a>
             </div>
           </ul>

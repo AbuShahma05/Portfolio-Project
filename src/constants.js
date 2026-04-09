@@ -116,9 +116,10 @@ export const projects = [
   {
     id: 0,
     title: "GrowAcademy",
-    description:
-      `Built a scalable full-stack LMS enabling instructors to create and manage courses while allowing students to seamlessly enroll and track learning progress.
-Implemented secure authentication and role-based dashboards for instructors, students, and admins, ensuring structured access control.
+    description: `Full-stack LMS addressing real instructor needs. Built: course creation with 
+video/document uploads, batch student enrollment (processes 100+ students in 2 seconds), 
+real-time progress tracking. Tech: React, Node.js + Express, 
+MongoDB, JWT authentication. Optimized instructor dashboard. Deployed on Vercel.
       `,
     image: GrowAcademy,
     tags: [

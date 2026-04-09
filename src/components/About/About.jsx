@@ -42,14 +42,13 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed ">
-            I am a full-stack developer <br /> with strong
-            skills in front-end <br /> and back-end development. <br />
-            I specialize in the MERN stack <br />
-            and have a deep love for <br /> frontend
-            development, where I <br /> enjoy
-            creating
-            smooth, engaging <br /> user experiences.
-            Along with <br />frontend expertise, I am also <br />confident in building powerful <br />backend solutions, making me<br /> capable of handling complete<br /> web applications from start to finish.
+            Final-year BCA student building web <br />
+            applications using modern web technologies.
+            Created GrowAcademy, a full-stack learning platform where instructors
+            manage courses <br />
+            and track student progress. Focused on writing clean,
+            efficient code. Available to start immediately.
+            Open to internships or full-time roles.
           </p>
 
           {/* Resume Button */}
