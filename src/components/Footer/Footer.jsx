@@ -73,7 +73,7 @@ const Footer = () => {
 
           {/* Email Icon - Gmail Red */}
           <a
-            href="mailto:abushahmasiddiqui880@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=abushahmasiddiqui880@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             title="Email"
