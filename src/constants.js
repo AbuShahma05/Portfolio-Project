@@ -89,7 +89,7 @@ export const education = [
     school: "Gaya College, GAYA",
     date: "July 2023 - July 2026",
     Percentage: "73%",
-    desc: "I am a final-year BCA student at Gaya College, Gaya, specializing in full-stack web development. Over the course of my studies, I have built and deployed 9+ projects that strengthened my skills in frontend, backend, and database management. With a solid foundation in computer science subjects and hands-on project experience, I am currently preparing for technical interviews to start my journey as a software developer.",
+    desc: "I am a final-year BCA student at Gaya College, Gaya, specializing in full-stack web development. Throughout my studies, I have built and deployed 9+ projects, sharpening my skills in frontend, backend, and database management. With a strong foundation in core computer science subjects and solid hands-on experience, I am actively preparing for technical interviews to launch my career as a software developer.",
     degree: "Bachelor of Computer Application - BCA",
   },
   {
@@ -98,7 +98,7 @@ export const education = [
     school: "Sanjay Singh Yadav College",
     date: "Jan 2020 - March 2022",
     Percentage: "73.6%",
-    desc: "I completed my class 12 education from Sanjay Singh Yadav College under the BSEB (Bihar School Examination Board). My academic focus was on subjects including Physics, Chemistry, Biology (PCB) along with Mathematics.",
+    desc: "I completed my Class 12 education from Sanjay Singh Yadav College under the BSEB (Bihar School Examination Board). My academic focus covered Physics, Chemistry, Biology (PCB), and Mathematics — building a strong analytical and scientific base that later supported my transition into computer science and technology.",
     degree: "BSEB(XII) - PCB with Mathematics",
   },
   {
@@ -107,7 +107,7 @@ export const education = [
     school: "A N S High School Sagahi, Gaya",
     date: "January 2018 - March 2020",
     Percentage: "72.4%",
-    desc: "I completed my class 10 education from A N S High School Sagahi, Gaya, under the BSEB (Bihar School Examination Board). My curriculum included Science, Social Science, Mathematics, English, and Urdu.",
+    desc: "I completed my Class 10 education from A N S High School Sagahi, Gaya, under the BSEB (Bihar School Examination Board). My curriculum covered Science, Social Science, Mathematics, English, and Urdu — developing my foundational reasoning, communication, and problem-solving skills from an early stage.",
     degree: "BSEB(X), Science Social Science Math English Urdu",
   },
 ];
