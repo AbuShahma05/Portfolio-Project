@@ -42,7 +42,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed ">
-            Final-year BCA student building web <br />
+            BCA Graduate '26 building web <br />
             applications using modern web technologies.
             Created GrowAcademy, a full-stack learning platform where instructors
             manage courses <br />
