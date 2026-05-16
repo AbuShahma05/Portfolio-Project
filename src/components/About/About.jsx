@@ -42,10 +42,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed ">
-            BCA Graduate '26 building web <br />
-            applications using modern web technologies.
+            BCA Graduate '26 building web 
+            applications <br />using modern web technologies.
             Created GrowAcademy, a full-stack learning platform where instructors
-            manage courses <br />
+            manage courses 
             and track student progress. Focused on writing clean,
             efficient code. Available to start immediately.
             Open to internships or full-time roles.
@@ -53,7 +53,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1nCRFWlWJ1s-5btwszk-R30XV06tnmW-B/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ClKezYZXk9snvxuZ3I-2ORekgocFlsqD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
