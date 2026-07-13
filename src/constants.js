@@ -20,6 +20,8 @@ import postmanLogo from "./assets/tech_logo/postman.png";
 import mcLogo from "./assets/tech_logo/mc.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import python from "./assets/tech_logo/python.jpg";
+
 
 // Education Section Logo's
 import gaya from "./assets/education_logo/gaya.jpeg";
@@ -66,6 +68,7 @@ export const SkillsInfo = [
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "Typescript", logo: typescriptLogo },
+      { name: "python", logo: python },
     ],
   },
   {
@@ -88,8 +91,8 @@ export const education = [
     img: gaya,
     school: "Gaya College, GAYA",
     date: "July 2023 - July 2026",
-    Percentage: "73%",
-    desc: "BCA Graduate '26 from Gaya College, Gaya. Specializing in full-stack web development. Throughout my studies, I have built and deployed 9+ projects, sharpening my skills in frontend, backend, and database management. With a strong foundation in core computer science subjects and solid hands-on experience, I am actively preparing for technical interviews to launch my career as a software developer.",
+    Percentage: "73.6%",
+    desc: "BCA Graduate '26 from Gaya College, Gaya. Specializing in full-stack web development. Throughout my studies, I have built and deployed projects, sharpening my skills in frontend, backend, and database management. With a strong foundation in core computer science subjects and solid hands-on experience, I am actively preparing for technical interviews to launch my career as a software developer.",
     degree: "Bachelor of Computer Application - BCA",
   },
   {
@@ -116,10 +119,7 @@ export const projects = [
   {
     id: 0,
     title: "GrowAcademy",
-    description: `Full-stack LMS addressing real instructor needs. Built: course creation with 
-video/document uploads, batch student enrollment (processes 100+ students in 2 seconds), 
-real-time progress tracking. Tech: React, Node.js + Express, 
-MongoDB, JWT authentication. Optimized instructor dashboard. Deployed on Vercel.
+    description: `Full-stack EdTech platform for instructors and students — course creation with video/document uploads, role-based dashboards (Admin/Instructor/Student), and real-time progress tracking. Deployed on Vercel.
       `,
     image: GrowAcademy,
     tags: [
@@ -142,7 +142,7 @@ MongoDB, JWT authentication. Optimized instructor dashboard. Deployed on Vercel.
     id: 1,
     title: "TechRoute",
     description:
-      "A comprehensive and beginner-friendly web platform crafted to guide students through their tech career journeys. TechRoute offers clear roadmaps, essential skill lists, unique project ideas, and core theory subject resources to help users confidently build their careers in the tech industry.",
+      "TechRoute — A frontend web app providing curated tech career roadmaps, skill checklists, and project ideas for students entering software development.",
     image: TechRoute,
     tags: [
       "React JS",
@@ -158,7 +158,7 @@ MongoDB, JWT authentication. Optimized instructor dashboard. Deployed on Vercel.
     id: 2,
     title: "Apple",
     description:
-      "A sleek and modern frontend web project inspired by the Apple website. This clone features a polished UI, smooth animations, and intuitive navigation. It includes dedicated pages for Mac, iPad, and iPhone, offering users a visually rich and seamless browsing experience.",
+      "Apple Website Clone — A pixel-close recreation of Apple's website UI, featuring dedicated Mac, iPad, and iPhone product pages with image carousels, scroll-triggered animations, and responsive navigation.",
     image: Apple,
     tags: [
       "React JS",
