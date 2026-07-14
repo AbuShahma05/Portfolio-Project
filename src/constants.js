@@ -22,7 +22,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import python from "./assets/tech_logo/python.jpg";
 import figma from "./assets/tech_logo/figma.png";
-import render from "./assets/tech_logo/render.png";
+import render from "./assets/tech_logo/render.jpg";
 
 // Education Section Logo's
 import gaya from "./assets/education_logo/gaya.jpeg";
