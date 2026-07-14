@@ -21,7 +21,8 @@ import mcLogo from "./assets/tech_logo/mc.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import python from "./assets/tech_logo/python.jpg";
-
+import figma from "./assets/tech_logo/figma.png";
+import render from "./assets/tech_logo/render.png";
 
 // Education Section Logo's
 import gaya from "./assets/education_logo/gaya.jpeg";
@@ -68,7 +69,7 @@ export const SkillsInfo = [
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "Typescript", logo: typescriptLogo },
-      { name: "python", logo: python },
+      { name: "Python", logo: python },
     ],
   },
   {
@@ -81,6 +82,8 @@ export const SkillsInfo = [
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
+      { name: "Figma", logo: figma },
+      { name: "Render", logo: render },
     ],
   },
 ];
